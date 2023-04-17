@@ -209,7 +209,7 @@ namespace Lista6PR2
                     Console.WriteLine("Digite a sua altura em metros: ");
                     h = float.Parse(Console.ReadLine());
 
-                    IMC = (peso / h) * h;
+                    IMC = peso / (h * h);
 
                     if(IMC < 18.5f)
                     {
